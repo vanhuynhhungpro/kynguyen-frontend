@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Modern Theme - Deep Navy & Indigo */
+    --color-primary: #0f172a;
+    /* Slate 900 - Premium Dark */
+    --color-primary-dark: #020617;
+    /* Slate 950 */
+    --color-accent: #4f46e5;
+    /* Indigo 600 - Vivrant Tech */
+    --color-accent-light: #eef2ff;
+    /* Indigo 50 */
+    --color-background-light: #f8fafc;
+    /* Slate 50 */
+    --color-text-main: #0f172a;
+    /* Slate 900 */
+    --color-text-sub: #64748b;
+    /* Slate 500 */
+
+    /* Branding - Fonts & Shapes */
+    --font-display: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --radius: 0.75rem;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD8DA;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3FA796;
+}
