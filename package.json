@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && rm -f dist/manifest.webmanifest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install": "npm install --legacy-peer-deps",
+    "preinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@fontsource/playfair-display": "^5.2.8",
